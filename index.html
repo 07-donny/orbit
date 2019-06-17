@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="De beste keuze bij webdesign">
+    <meta name="keywords" content="webdesign, webhosting, betaalbaar, kwaliteit">
+    <meta name="author" content="Donny Meijer">
+    <meta http-equiv="language" content="NL">
+
+    <script src="js/functions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Orbit Webdesign</title>
+
+</head>
+
+<script>
+    $(document).ready(function () {
+    $(this).scrollTop(0);
+});
+
+
+
+    </script>
+
+<body data-spy="scroll" data-target="header" data-offset="0">
+    <section id=head>
+        <header>
+            <div class="container">
+                <img src="img/logo_orbit.png" alt="Logo Orbit">
+            </div>
+        </header>
+    </section>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Betaalbare Professionele Webdesign</h1>
+            <p>Orbit webdesign is de webdesigner voor u. Van professionele websites voor uw bedrijf tot persoonlijke blogs, wij creeëren de website die perfect bij u past. Samen met u gaan wij in gesprek om uw wens te verwerkelijken.</p>
+        </div>
+    </section>
+
+    <section id="navigatie">
+        <div class="container">
+            <div class="box">
+                <a href="#head"><img src="img/home.ico" alt="Home"></a>
+
+            </div>
+
+            <div class="box">
+                <a href="#boxes"><img src="img/over.ico" alt="Over"></a>
+            </div>
+
+            <div class="box">
+                <a href="#contact"><img src="img/contact.ico" alt="Contact"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container">
+            <h1>Waarom Orbit Webdesign?</h1>
+            <div class="box">
+                <img src="img/logo_html.png">
+                <h3>HTML5 Markup</h3>
+                <p>Wij maken websites met de nieuwste versie van HTML</p>
+            </div>
+
+            <div class="box">
+                <img src="img/logo_css.png">
+                <h3>CSS3 Styling</h3>
+                <p>Al onze websites zijn voorzien van CSS3 styling voor het beste resultaat</p>
+            </div>
+
+            <div class="box">
+                <img src="img/logo_brush.png">
+                <h3>Grafisch Design</h3>
+                <p>Wilt u een uniek logo? Geen probleem. Wij zorgen dat uw website perfect voor uw bedrijf is!</p>
+            </div>
+
+            <div class="box">
+
+                <h3>"De samenwerking met Orbit is ons uitstekend bevallen!"<br>
+                    - Henkie</h3>
+            </div>
+
+            <div class="box">
+                <p>Orbit is het internetbureau dat je helpt boven het digitale maaiveld uit te steken. Vanuit Hensbroek werken we aan aansprekende projecten voor ambitieuze klanten.</p>
+            </div>
+
+            <div class="box">
+                <p>Ons team bestaat uit gedreven vakidioten, die graag een stapje extra zetten. Orbit heeft in al haar activiteiten maatschappelijk verantwoord ondernemen hoog in het vaandel.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Slideshow 1-->
+    <section id= "slideshow">
+        <div class="slideshow-container">
+          <h1>Portfolio</h1>
+          <p>
+            Hieronder vind u de websites die onze leden hebben gemaakt.
+          </p>
+            <div class="mySlides1">
+                <img src="img/Villas_Jelle.jpg">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Home_Jelle.jpg">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Mansions_Jelle.jpg">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Home_Ricardo.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Creepypasta_Ricardo.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Contact_Ricardo.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Home_Quincy.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Heroes_Quincy.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Ana_Quincy.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Screen1_Donny.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Screen2_Donny.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/Screen3_Donny.png">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/ScreenshotA1.PNG">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/ScreenshotA2.PNG">
+            </div>
+
+            <div class="mySlides1">
+                <img src="img/ScreenshotA3.PNG">
+            </div>
+
+            <!-- Einde Slideshow -->
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contactContainer">
+            <form id="contact" action="php/verwerken.php" method="post">
+                <h3>Contact Formulier</h3>
+                <h4>Neem vandaag nog contact met ons op, u krijg binnen 24 uur een reactie van ons!</h4>
+                <fieldset>
+                    <input name="naam" placeholder="Naam" type="text" tabindex="1" maxlength="35" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input name="email" placeholder="Email" type="email" tabindex="2" maxlength="50" required>
+                </fieldset>
+                <fieldset>
+                    <input name="telefoon" placeholder="Telefoon" type="tel" tabindex="3" maxlength="10" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Uw verzoek of vraag" tabindex="4" maxlength="500" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Verzenden</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Orbit Webdesign, Copyright &copy; 2019</p>
+    </footer>
+
+</body>
+
+</html>
+
+<script>
+    var slideIndex = [1, 1];
+    var slideId = ["mySlides1"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+
+    function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+    }
+
+    function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {
+            slideIndex[no] = 1
+        }
+        if (n < 1) {
+            slideIndex[no] = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+    }
+
+</script>
